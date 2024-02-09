@@ -73,7 +73,7 @@ spec:
                 container('openshift-cli') {
                     script {
                         sh 'oc get pods'
-                        sh 'oc run test-pod-httpd-3 --image=image-registry.openshift-image-registry.svc:5000/openshift/httpd:latest'
+                        sh 'oc run test-pod-httpd-4 --image=image-registry.openshift-image-registry.svc:5000/openshift/httpd:latest'
                         sh 'oc get pods'
                     }
                 }
